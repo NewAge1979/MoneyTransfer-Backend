@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  backend-app:
+    image: backend:0.0.1
+    build: .
+    restart: always
+    ports:
+      - '8080:8080'
+    volumes:
+      - ./logs:/logs
+  frontend-app:
+    image: frontend:0.0.1
+    build: ./frontend
+    restart: always
+    ports:
+      - '3000:3000'
+    depends_on:
+      - backend-app
+    volumes:
+      - /app/node_MODULES
+      - ./frontend:/app

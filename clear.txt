@@ -1,0 +1,3 @@
+docker container kill $(docker container ls -ql)
+docker container rm $(docker container ls -ql)
+docker rmi -f $(docker images -q)

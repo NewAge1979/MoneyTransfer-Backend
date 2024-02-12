@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{[yyyy-MM-dd HH:mm:ss.SSS]} [%thread] %-5level %logger{36} %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="MONEYTRANSFERLOGFILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/MoneyTransfer.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/MoneyTransfer.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>10</maxHistory>
+            <totalSizeCap>50MB</totalSizeCap>
+        </rollingPolicy>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator>
+                <expression>return event.getMarkerList() != null &amp;&amp; !event.getMarkerList().isEmpty() &amp;&amp; ((org.slf4j.Marker) event.getMarkerList().get(0)).getName().equals("MoneyTransfer");</expression>
+            </evaluator>
+            <OnMatch>ACCEPT</OnMatch>
+            <OnMismatch>DENY</OnMismatch>
+        </filter>
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}]: %msg%n</pattern>
+        </encoder>
+    </appender>
+    <root level="info">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="MONEYTRANSFERLOGFILE" />
+    </root>
+</configuration>

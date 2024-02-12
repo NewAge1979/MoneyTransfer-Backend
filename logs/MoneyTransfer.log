@@ -1,0 +1,36 @@
+[2024-02-12 00:23:24.599]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: It's the same card.
+[2024-02-12 00:26:24.836]: Operation Id: fccd81a1-3acf-4e98-9f36-f95d006e8c30, confirm code: 0000
+[2024-02-12 00:26:24.842]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: fccd81a1-3acf-4e98-9f36-f95d006e8c30, status: SUCCESSFULED, comment: 
+[2024-02-12 00:26:24.940]: Transaction ID: fccd81a1-3acf-4e98-9f36-f95d006e8c30, status: SUCCESSFULED, comment: Transaction: fccd81a1-3acf-4e98-9f36-f95d006e8c30 confirmed
+[2024-02-12 00:36:27.496]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: It's the same card.
+[2024-02-12 00:36:46.115]: Operation Id: 874d5004-1910-4707-8b42-76b58221efa0, confirm code: 0000
+[2024-02-12 00:36:46.117]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 874d5004-1910-4707-8b42-76b58221efa0, status: SUCCESSFULED, comment: 
+[2024-02-12 00:36:46.215]: Transaction ID: 874d5004-1910-4707-8b42-76b58221efa0, status: SUCCESSFULED, comment: Transaction: 874d5004-1910-4707-8b42-76b58221efa0 confirmed
+[2024-02-12 00:37:29.946]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: , status: TRANSFER_ERROR, comment: Not enough money on card: 1111222233334444
+[2024-02-12 00:42:27.547]: Operation Id: e7441012-13af-481c-8d50-d86f6a56f82e, confirm code: 0000
+[2024-02-12 00:42:27.549]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: e7441012-13af-481c-8d50-d86f6a56f82e, status: SUCCESSFULED, comment: 
+[2024-02-12 00:42:27.595]: Transaction ID: e7441012-13af-481c-8d50-d86f6a56f82e, status: SUCCESSFULED, comment: Transaction: e7441012-13af-481c-8d50-d86f6a56f82e confirmed
+[2024-02-12 00:47:17.939]: Operation Id: 75c29115-47cd-450d-ae86-ef73a7f001d2, confirm code: 0000
+[2024-02-12 00:47:18.027]: Operation Id: 2e96a9e3-55b8-4c3d-8d36-a3d2afff4a1b, confirm code: 0000
+[2024-02-12 00:47:18.382]: Transaction ID: 1, status: SUCCESSFULED, comment: Transaction: 1 confirmed
+[2024-02-12 00:47:18.407]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 1, status: SUCCESSFULED, comment: 
+[2024-02-11 22:17:01.185]: Operation Id: 831a54cd-0dd7-4472-a532-0fadfb618f58, confirm code: 0000
+[2024-02-11 22:17:01.190]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 831a54cd-0dd7-4472-a532-0fadfb618f58, status: SUCCESSFULED, comment: 
+[2024-02-11 22:17:01.293]: Transaction ID: 831a54cd-0dd7-4472-a532-0fadfb618f58, status: SUCCESSFULED, comment: Transaction: 831a54cd-0dd7-4472-a532-0fadfb618f58 confirmed
+[2024-02-11 22:18:06.703]: Operation Id: e5021385-dd55-49bf-bb5f-f8f536b05c9c, confirm code: 0000
+[2024-02-11 22:18:06.704]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 3000, commission: 30, transaction ID: e5021385-dd55-49bf-bb5f-f8f536b05c9c, status: SUCCESSFULED, comment: 
+[2024-02-11 22:18:06.738]: Transaction ID: e5021385-dd55-49bf-bb5f-f8f536b05c9c, status: SUCCESSFULED, comment: Transaction: e5021385-dd55-49bf-bb5f-f8f536b05c9c confirmed
+[2024-02-12 01:26:53.426]: Transaction ID: 1, status: SUCCESSFULED, comment: Transaction: 1 confirmed
+[2024-02-12 01:26:53.485]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 1, status: SUCCESSFULED, comment: 
+[2024-02-12 01:27:25.122]: Operation Id: 8b5a709c-7af4-477a-82a2-c162f6161419, confirm code: 0000
+[2024-02-12 01:27:25.278]: Operation Id: f1698cdd-6d61-4084-9979-ddd35b107458, confirm code: 0000
+[2024-02-12 01:29:36.743]: Operation Id: 39267721-4c54-41fb-a656-170aa51f2195, confirm code: 0000
+[2024-02-12 01:29:36.849]: Operation Id: 6dad3a03-d78b-46d1-918d-e1d83c1c2ab2, confirm code: 0000
+[2024-02-12 01:29:57.120]: Transaction ID: 1, status: SUCCESSFULED, comment: Transaction: 1 confirmed
+[2024-02-12 01:29:57.175]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 1, status: SUCCESSFULED, comment: 
+[2024-02-12 03:46:59.539]: Operation Id: f5e4d3e9-35cc-4dc3-80d5-ee0fdde83ad2, confirm code: 0000
+[2024-02-12 03:46:59.544]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: f5e4d3e9-35cc-4dc3-80d5-ee0fdde83ad2, status: SUCCESSFULED, comment: 
+[2024-02-12 03:47:33.030]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: , status: TRANSFER_ERROR, comment: Not enough money on card: 1111222233334444
+[2024-02-12 03:47:42.146]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: , status: TRANSFER_ERROR, comment: Not enough money on card: 1111222233334444
+[2024-02-12 03:48:04.928]: Operation Id: 9f3ff207-7ad0-460a-9c4e-7d0cbdbae281, confirm code: 0000
+[2024-02-12 03:48:04.930]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 9f3ff207-7ad0-460a-9c4e-7d0cbdbae281, status: SUCCESSFULED, comment: 

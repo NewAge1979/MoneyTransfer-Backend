@@ -1,0 +1,51 @@
+@import "src/styles/colors";
+
+.body {
+  background-color: $THEME_WHITE;
+  color: $THEME_BLACK;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px;
+  min-width: 400px;
+  padding: 45px 55px 35px;
+  text-align: center;
+
+  &.button {
+    background-color: $THEME_BLUE;
+    color: $CLASSIC_WHITE;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: none;
+    transition: 0.25s;
+    width: 100%;
+
+    &:hover {
+      background-color: $THEME_BLUE;
+      box-shadow: #000000 0px 0px 15px;
+    }
+
+    &.error {
+      background-color: $THEME_RED;
+      &:hover {
+        background-color: $THEME_RED;
+      }
+    }
+  }
+}
+
+.title {
+  font-size: 36px;
+  margin: 0;
+  padding-bottom: 20px;
+
+  &.error {
+    color: $THEME_RED;
+  }
+}
+
+.message {
+  font-size: 24px;
+}

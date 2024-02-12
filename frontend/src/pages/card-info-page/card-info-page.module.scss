@@ -1,0 +1,94 @@
+@import "src/styles/colors";
+
+$ARROW_HEIGHT: 57px;
+$ARROW_WIDTH: 27px;
+$CARD_SPACE_BETWEEN: 50px;
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  color: $CLASSIC_WHITE;
+  font-size: 48px;
+  margin: 0;
+  padding: 16px;
+}
+
+.sub-header {
+  color: $THEME_GRAY;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  padding: 16px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.card {
+  margin-left: $CARD_SPACE_BETWEEN;
+  margin-right: $CARD_SPACE_BETWEEN;
+}
+
+.card-title {
+  color: $CLASSIC_WHITE;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.arrow-right {
+  &:after {
+    content: '';
+    background-image: url("../../assets/arrow-right.png");
+    display: block;
+    position: absolute;
+    right: calc(-#{$CARD_SPACE_BETWEEN} - #{$ARROW_WIDTH} / 2);
+    top: calc(50% - #{$ARROW_HEIGHT} / 2);
+    height: $ARROW_HEIGHT;
+    width: $ARROW_WIDTH;
+  }
+}
+
+.sum {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  &-title {
+    color: $CLASSIC_WHITE;
+    font-size: 24px;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+}
+
+.commission {
+  color: $CLASSIC_WHITE;
+  font-size: 18px;
+  text-align: center;
+}
+
+.button-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  &.send-button {
+    color: $CLASSIC_WHITE;
+    background-color: $THEME_BLUE;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 20px 80px 25px;
+    text-transform: none;
+  }
+}
