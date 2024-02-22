@@ -4,6 +4,8 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+gradle/
+error*.png
 
 ### STS ###
 .apt_generated
@@ -35,9 +37,3 @@ out/
 
 ### VS Code ###
 .vscode/
-
-### My folders
-frontend_old
-/frontend/node_MODULES
-/frontend/node_modules
-/frontend/.idea

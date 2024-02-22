@@ -1,1 +1,0 @@
-export {cardMoneyInputRedux as cardMoneyInput} from "./card-money-input-redux";

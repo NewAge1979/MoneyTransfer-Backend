@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
+import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.testcontainers.containers.GenericContainer;
@@ -35,31 +36,66 @@ class MoneyTransferApplicationTests {
             .waitingFor(Wait.forHttp("/").forStatusCode(404));
 
     @Test
-    void contextLoads() {
-        System.out.println(String.format("%s:%s/%s", HOST_NAME, myContainer.getMappedPort(PORT), END_POINT));
-        System.out.println(myContainer.getContainerName());
-        Amount amount = new Amount(1000, "RUR");
+    void transferSuccessful() {
         TransferRequestBody myTransfer = new TransferRequestBody(
                 "1111222233334444",
                 "09/25",
                 "804",
                 "2222333344445555",
-                amount
+                new Amount(1000, "RUR")
         );
-        ResponseEntity<MoneyTransferResponse> test = myTemplate
+        HttpEntity<TransferRequestBody> myRequest = new HttpEntity<>(myTransfer);
+        /*ResponseEntity<MoneyTransferResponse> test = myTemplate
                 .postForEntity(
                         String.format("%s:%s/%s", HOST_NAME, myContainer.getMappedPort(PORT), END_POINT),
-                        myTransfer,
+                        myRequest,
                         MoneyTransferResponse.class
-                );
-        assertEquals(HttpStatus.OK, test.getStatusCode());
-        /*ResponseEntity<MoneyTransferError> error = myTemplate
+                );*/
+        ResponseEntity<String> test = myTemplate
                 .postForEntity(
                         String.format("%s:%s/%s", HOST_NAME, myContainer.getMappedPort(PORT), END_POINT),
-                        myTransfer,
-                        MoneyTransferError.class
+                        myRequest,
+                        String.class
                 );
-        System.out.println(error);*/
+        //System.out.println(test.getBody());
+        assertEquals(HttpStatus.OK, test.getStatusCode());
     }
 
+    @Test
+    void invalidData() {
+        TransferRequestBody myTransfer = new TransferRequestBody(
+                "1111222233334445",
+                "09/25",
+                "804",
+                "2222333344445555",
+                new Amount(1000, "RUR")
+        );
+        HttpEntity<TransferRequestBody> myRequest = new HttpEntity<>(myTransfer);
+        ResponseEntity<MoneyTransferError> test = myTemplate
+                .postForEntity(
+                        String.format("%s:%s/%s", HOST_NAME, myContainer.getMappedPort(PORT), END_POINT),
+                        myRequest,
+                        MoneyTransferError.class
+                );
+        assertEquals(HttpStatus.BAD_REQUEST, test.getStatusCode());
+    }
+
+    @Test
+    void transferError() {
+        TransferRequestBody myTransfer = new TransferRequestBody(
+                "1111222233334444",
+                "09/25",
+                "804",
+                "2222333344445555",
+                new Amount(10000, "RUR")
+        );
+        HttpEntity<TransferRequestBody> myRequest = new HttpEntity<>(myTransfer);
+        ResponseEntity<MoneyTransferError> test = myTemplate
+                .postForEntity(
+                        String.format("%s:%s/%s", HOST_NAME, myContainer.getMappedPort(PORT), END_POINT),
+                        myRequest,
+                        MoneyTransferError.class
+                );
+        assertEquals(HttpStatus.INTERNAL_SERVER_ERROR, test.getStatusCode());
+    }
 }
