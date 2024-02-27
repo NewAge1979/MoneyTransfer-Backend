@@ -1,36 +1,197 @@
-[2024-02-12 00:23:24.599]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: It's the same card.
-[2024-02-12 00:26:24.836]: Operation Id: fccd81a1-3acf-4e98-9f36-f95d006e8c30, confirm code: 0000
-[2024-02-12 00:26:24.842]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: fccd81a1-3acf-4e98-9f36-f95d006e8c30, status: SUCCESSFULED, comment: 
-[2024-02-12 00:26:24.940]: Transaction ID: fccd81a1-3acf-4e98-9f36-f95d006e8c30, status: SUCCESSFULED, comment: Transaction: fccd81a1-3acf-4e98-9f36-f95d006e8c30 confirmed
-[2024-02-12 00:36:27.496]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: It's the same card.
-[2024-02-12 00:36:46.115]: Operation Id: 874d5004-1910-4707-8b42-76b58221efa0, confirm code: 0000
-[2024-02-12 00:36:46.117]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 874d5004-1910-4707-8b42-76b58221efa0, status: SUCCESSFULED, comment: 
-[2024-02-12 00:36:46.215]: Transaction ID: 874d5004-1910-4707-8b42-76b58221efa0, status: SUCCESSFULED, comment: Transaction: 874d5004-1910-4707-8b42-76b58221efa0 confirmed
-[2024-02-12 00:37:29.946]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: , status: TRANSFER_ERROR, comment: Not enough money on card: 1111222233334444
-[2024-02-12 00:42:27.547]: Operation Id: e7441012-13af-481c-8d50-d86f6a56f82e, confirm code: 0000
-[2024-02-12 00:42:27.549]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: e7441012-13af-481c-8d50-d86f6a56f82e, status: SUCCESSFULED, comment: 
-[2024-02-12 00:42:27.595]: Transaction ID: e7441012-13af-481c-8d50-d86f6a56f82e, status: SUCCESSFULED, comment: Transaction: e7441012-13af-481c-8d50-d86f6a56f82e confirmed
-[2024-02-12 00:47:17.939]: Operation Id: 75c29115-47cd-450d-ae86-ef73a7f001d2, confirm code: 0000
-[2024-02-12 00:47:18.027]: Operation Id: 2e96a9e3-55b8-4c3d-8d36-a3d2afff4a1b, confirm code: 0000
-[2024-02-12 00:47:18.382]: Transaction ID: 1, status: SUCCESSFULED, comment: Transaction: 1 confirmed
-[2024-02-12 00:47:18.407]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 1, status: SUCCESSFULED, comment: 
-[2024-02-11 22:17:01.185]: Operation Id: 831a54cd-0dd7-4472-a532-0fadfb618f58, confirm code: 0000
-[2024-02-11 22:17:01.190]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 831a54cd-0dd7-4472-a532-0fadfb618f58, status: SUCCESSFULED, comment: 
-[2024-02-11 22:17:01.293]: Transaction ID: 831a54cd-0dd7-4472-a532-0fadfb618f58, status: SUCCESSFULED, comment: Transaction: 831a54cd-0dd7-4472-a532-0fadfb618f58 confirmed
-[2024-02-11 22:18:06.703]: Operation Id: e5021385-dd55-49bf-bb5f-f8f536b05c9c, confirm code: 0000
-[2024-02-11 22:18:06.704]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 3000, commission: 30, transaction ID: e5021385-dd55-49bf-bb5f-f8f536b05c9c, status: SUCCESSFULED, comment: 
-[2024-02-11 22:18:06.738]: Transaction ID: e5021385-dd55-49bf-bb5f-f8f536b05c9c, status: SUCCESSFULED, comment: Transaction: e5021385-dd55-49bf-bb5f-f8f536b05c9c confirmed
-[2024-02-12 01:26:53.426]: Transaction ID: 1, status: SUCCESSFULED, comment: Transaction: 1 confirmed
-[2024-02-12 01:26:53.485]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 1, status: SUCCESSFULED, comment: 
-[2024-02-12 01:27:25.122]: Operation Id: 8b5a709c-7af4-477a-82a2-c162f6161419, confirm code: 0000
-[2024-02-12 01:27:25.278]: Operation Id: f1698cdd-6d61-4084-9979-ddd35b107458, confirm code: 0000
-[2024-02-12 01:29:36.743]: Operation Id: 39267721-4c54-41fb-a656-170aa51f2195, confirm code: 0000
-[2024-02-12 01:29:36.849]: Operation Id: 6dad3a03-d78b-46d1-918d-e1d83c1c2ab2, confirm code: 0000
-[2024-02-12 01:29:57.120]: Transaction ID: 1, status: SUCCESSFULED, comment: Transaction: 1 confirmed
-[2024-02-12 01:29:57.175]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 1, status: SUCCESSFULED, comment: 
-[2024-02-12 03:46:59.539]: Operation Id: f5e4d3e9-35cc-4dc3-80d5-ee0fdde83ad2, confirm code: 0000
-[2024-02-12 03:46:59.544]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: f5e4d3e9-35cc-4dc3-80d5-ee0fdde83ad2, status: SUCCESSFULED, comment: 
-[2024-02-12 03:47:33.030]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: , status: TRANSFER_ERROR, comment: Not enough money on card: 1111222233334444
-[2024-02-12 03:47:42.146]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: , status: TRANSFER_ERROR, comment: Not enough money on card: 1111222233334444
-[2024-02-12 03:48:04.928]: Operation Id: 9f3ff207-7ad0-460a-9c4e-7d0cbdbae281, confirm code: 0000
-[2024-02-12 03:48:04.930]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 9f3ff207-7ad0-460a-9c4e-7d0cbdbae281, status: SUCCESSFULED, comment: 
+[2024-02-27 05:36:36.557]: Operation Id: 9b86eee0-0d27-4b90-bf6d-1c1c9c8f6b95, confirm code: 0000
+[2024-02-27 05:36:36.624]: Operation Id: 84f44dc3-1cba-4989-9ded-1bb059b23ad0, confirm code: 0000
+[2024-02-27 05:36:37.403]: Transaction ID: 1, status: SUCCESSFULED, comment: Transaction: 1 confirmed
+[2024-02-27 05:36:37.430]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 1, status: SUCCESSFULED, comment: 
+[2024-02-27 07:14:32.925]: Debit card: 0000000000000000, credit card: 1111111111111111, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 07:14:42.629]: Debit card: 1111222233334444, credit card: 1111111111111111, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Необходимо указать разные карты для отправителя и получателя.
+[2024-02-27 07:14:55.814]: Debit card: 0000000000000000, credit card: 1111111111111111, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 07:15:07.384]: Debit card: 1111222233334444, credit card: 1111111111111111, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Необходимо указать разные карты для отправителя и получателя.
+[2024-02-27 07:15:11.998]: Debit card: 0000000000000000, credit card: 1111111111111111, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 07:15:16.260]: Debit card: 1111222233334444, credit card: 1111111111111111, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Необходимо указать разные карты для отправителя и получателя.
+[2024-02-27 07:17:20.297]: Debit card: 0000000000000000, credit card: 1111111111111111, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 07:17:27.242]: Debit card: 1111222233334444, credit card: 1111111111111111, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 1111111111111111
+[2024-02-27 07:18:24.877]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Необходимо указать разные карты для отправителя и получателя.
+[2024-02-27 13:33:33.027]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный период действия карты: 1111222233334444
+[2024-02-27 13:33:40.353]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный CVV код карты: 1111222233334444
+[2024-02-27 14:19:48.783]: Debit card: 0000000000000000, credit card: 1111111111111111, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 14:19:54.847]: Debit card: 1111222233334444, credit card: 1111111111111111, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 1111111111111111
+[2024-02-27 14:20:00.464]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Необходимо указать разные карты для отправителя и получателя.
+[2024-02-27 14:20:08.108]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный период действия карты: 1111222233334444
+[2024-02-27 14:20:15.243]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный CVV код карты: 1111222233334444
+[2024-02-27 14:20:22.284]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 20000, commission: 200, transaction ID: , status: TRANSFER_ERROR, comment: Не достаточно средств на карте: 1111222233334444
+[2024-02-27 14:24:07.554]: Debit card: 0000000000000000, credit card: 1111111111111111, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 14:24:11.312]: Debit card: 1111222233334444, credit card: 1111111111111111, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 1111111111111111
+[2024-02-27 14:24:16.402]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Необходимо указать разные карты для отправителя и получателя.
+[2024-02-27 14:24:20.014]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный период действия карты: 1111222233334444
+[2024-02-27 14:24:23.805]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный CVV код карты: 1111222233334444
+[2024-02-27 14:24:26.908]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 20000, commission: 200, transaction ID: , status: TRANSFER_ERROR, comment: Не достаточно средств на карте: 1111222233334444
+[2024-02-27 14:24:32.903]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: f4fb3f38-9064-4cf5-971c-16215f006997, status: SUCCESSFULED, comment: 
+[2024-02-27 15:31:12.521]: Transaction ID: 1111111111111111, status: CONFIRM_ERROR, comment: Транзакция 1111111111111111 не найдена или подтверждена ранее
+[2024-02-27 15:31:23.120]: Transaction ID: 4639c9e4-c23d-494e-a46a-b89d2d34f323, status: CONFIRM_ERROR, comment: Транзакция 4639c9e4-c23d-494e-a46a-b89d2d34f323 не найдена или подтверждена ранее
+[2024-02-27 15:41:07.210]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: cfe34fac-e896-4883-b914-1cafa157f79a, status: SUCCESSFULED, comment: 
+[2024-02-27 15:41:30.883]: Transaction ID: cfe34fac-e896-4883-b914-1cafa157f79a, status: CONFIRM_ERROR, comment: Для транзакции cfe34fac-e896-4883-b914-1cafa157f79a не верно указан код подтверждения
+[2024-02-27 15:41:45.213]: Transaction ID: cfe34fac-e896-4883-b914-1cafa157f79a, status: SUCCESSFULED, comment: Транзакция cfe34fac-e896-4883-b914-1cafa157f79a подтверждена
+[2024-02-27 15:41:52.927]: Transaction ID: cfe34fac-e896-4883-b914-1cafa157f79a, status: CONFIRM_ERROR, comment: Для транзакции cfe34fac-e896-4883-b914-1cafa157f79a не верно указан код подтверждения
+[2024-02-27 16:03:01.859]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 2efacc81-c02d-43f9-92fd-9399b14df17e, status: SUCCESSFULED, comment: 
+[2024-02-27 16:03:31.391]: Transaction ID: 2efacc81-c02d-43f9-92fd-9399b14df17e, status: ERROR, comment: Для транзакции 2efacc81-c02d-43f9-92fd-9399b14df17e не верно указан код подтверждения
+[2024-02-27 16:03:59.251]: Transaction ID: 2efacc81-c02d-43f9-92fd-9399b14df17e, status: SUCCESSFULED, comment: Транзакция 2efacc81-c02d-43f9-92fd-9399b14df17e подтверждена
+[2024-02-27 16:04:01.757]: Transaction ID: 2efacc81-c02d-43f9-92fd-9399b14df17e, status: SUCCESSFULED, comment: Транзакция 2efacc81-c02d-43f9-92fd-9399b14df17e подтверждена
+[2024-02-27 16:04:03.453]: Transaction ID: 2efacc81-c02d-43f9-92fd-9399b14df17e, status: SUCCESSFULED, comment: Транзакция 2efacc81-c02d-43f9-92fd-9399b14df17e подтверждена
+[2024-02-27 16:04:04.918]: Transaction ID: 2efacc81-c02d-43f9-92fd-9399b14df17e, status: SUCCESSFULED, comment: Транзакция 2efacc81-c02d-43f9-92fd-9399b14df17e подтверждена
+[2024-02-27 16:04:05.972]: Transaction ID: 2efacc81-c02d-43f9-92fd-9399b14df17e, status: SUCCESSFULED, comment: Транзакция 2efacc81-c02d-43f9-92fd-9399b14df17e подтверждена
+[2024-02-27 16:04:07.414]: Transaction ID: 2efacc81-c02d-43f9-92fd-9399b14df17e, status: SUCCESSFULED, comment: Транзакция 2efacc81-c02d-43f9-92fd-9399b14df17e подтверждена
+[2024-02-27 16:04:08.488]: Transaction ID: 2efacc81-c02d-43f9-92fd-9399b14df17e, status: SUCCESSFULED, comment: Транзакция 2efacc81-c02d-43f9-92fd-9399b14df17e подтверждена
+[2024-02-27 16:06:34.771]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 7edac227-585b-4ee8-a449-e8384303a085, status: SUCCESSFULED, comment: 
+[2024-02-27 16:06:55.823]: Transaction ID: 7edac227-585b-4ee8-a449-e8384303a085, status: ERROR, comment: Для транзакции 7edac227-585b-4ee8-a449-e8384303a085 не верно указан код подтверждения
+[2024-02-27 16:07:10.402]: Transaction ID: 7edac227-585b-4ee8-a449-e8384303a085, status: SUCCESSFULED, comment: Транзакция 7edac227-585b-4ee8-a449-e8384303a085 подтверждена
+[2024-02-27 16:07:13.044]: Transaction ID: 7edac227-585b-4ee8-a449-e8384303a085, status: ERROR, comment: Транзакция 7edac227-585b-4ee8-a449-e8384303a085 подтверждена ранее
+[2024-02-27 16:07:26.496]: Transaction ID: 7edac227-585b-4ee8-a449-e8384303a085, status: ERROR, comment: Транзакция 7edac227-585b-4ee8-a449-e8384303a085 подтверждена ранее
+[2024-02-27 16:20:40.688]: Debit card: 0000000000000000, credit card: 1111111111111111, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 16:20:45.696]: Debit card: 1111222233334444, credit card: 1111111111111111, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 1111111111111111
+[2024-02-27 16:20:51.556]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Необходимо указать разные карты для отправителя и получателя.
+[2024-02-27 16:20:58.191]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Необходимо указать разные карты для отправителя и получателя.
+[2024-02-27 16:21:04.377]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный период действия карты: 1111222233334444
+[2024-02-27 16:21:14.405]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный CVV код карты: 1111222233334444
+[2024-02-27 16:21:18.449]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 20000, commission: 200, transaction ID: , status: TRANSFER_ERROR, comment: Не достаточно средств на карте: 1111222233334444
+[2024-02-27 16:21:26.924]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: df50a505-c6f7-47e9-b028-8ee23d0339a8, status: SUCCESSFULED, comment: 
+[2024-02-27 16:21:39.059]: Transaction ID: 1111111111111111, status: ERROR, comment: Транзакция 1111111111111111 не найдена
+[2024-02-27 16:21:52.219]: Transaction ID: df50a505-c6f7-47e9-b028-8ee23d0339a8, status: ERROR, comment: Для транзакции df50a505-c6f7-47e9-b028-8ee23d0339a8 не верно указан код подтверждения
+[2024-02-27 16:22:08.639]: Transaction ID: df50a505-c6f7-47e9-b028-8ee23d0339a8, status: SUCCESSFULED, comment: Транзакция df50a505-c6f7-47e9-b028-8ee23d0339a8 подтверждена
+[2024-02-27 16:22:10.979]: Transaction ID: df50a505-c6f7-47e9-b028-8ee23d0339a8, status: ERROR, comment: Транзакция df50a505-c6f7-47e9-b028-8ee23d0339a8 подтверждена ранее
+[2024-02-27 16:48:28.502]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: cf5fea75-131d-499c-b95b-2b4204712eee, status: SUCCESSFULED, comment: 
+[2024-02-27 16:55:52.123]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: a5e437bc-a34f-4ba6-9c48-c292665b771f, status: SUCCESSFULED, comment: 
+[2024-02-27 16:56:10.599]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 13003bab-43e6-4591-af9c-476936d81169, status: SUCCESSFULED, comment: 
+[2024-02-27 17:00:07.650]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Необходимо указать разные карты для отправителя и получателя.
+[2024-02-27 17:05:22.119]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Необходимо указать разные карты для отправителя и получателя.
+[2024-02-27 17:09:22.924]: Debit card: 0000000000000000, credit card: 1111111111111111, amount: 20000, commission: 200, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 17:10:07.144]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Необходимо указать разные карты для отправителя и получателя.
+[2024-02-27 17:14:27.073]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Необходимо указать разные карты для отправителя и получателя.
+[2024-02-27 17:15:33.356]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Необходимо указать разные карты для отправителя и получателя.
+[2024-02-27 17:16:47.912]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: d85633f5-bf0f-4ff9-bcbb-c9bf7c253404, status: SUCCESSFULED, comment: 
+[2024-02-27 17:16:47.964]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Необходимо указать разные карты для отправителя и получателя.
+[2024-02-27 17:22:20.783]: Debit card: 0000000000000000, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 17:24:10.639]: Debit card: 1111222233334444, credit card: 0000000000000000, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 17:27:06.890]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный период действия карты: 1111222233334444
+[2024-02-27 17:27:55.658]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный CVV код карты: 1111222233334444
+[2024-02-27 17:28:39.133]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 20000, commission: 200, transaction ID: , status: TRANSFER_ERROR, comment: Не достаточно средств на карте: 1111222233334444
+[2024-02-27 17:29:01.530]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 20000, commission: 200, transaction ID: , status: TRANSFER_ERROR, comment: Не достаточно средств на карте: 1111222233334444
+[2024-02-27 17:40:55.776]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 3a2d4164-73da-4c08-84c4-3f162931e39c, status: SUCCESSFULED, comment: 
+[2024-02-27 17:40:55.780]: Transaction ID: 3a2d4164-73da-4c08-84c4-3f162931e39c, status: SUCCESSFULED, comment: Транзакция 3a2d4164-73da-4c08-84c4-3f162931e39c подтверждена
+[2024-02-27 17:43:45.949]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: e9cd74b5-b39b-40e8-a857-d2d7e98d6d4b, status: SUCCESSFULED, comment: 
+[2024-02-27 17:43:45.954]: Transaction ID: e9cd74b5-b39b-40e8-a857-d2d7e98d6d4b111, status: SUCCESSFULED, comment: Транзакция e9cd74b5-b39b-40e8-a857-d2d7e98d6d4b111 подтверждена
+[2024-02-27 17:45:41.970]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 00b277c9-2b10-4943-a257-466557824358, status: SUCCESSFULED, comment: 
+[2024-02-27 17:45:41.985]: Transaction ID: 00b277c9-2b10-4943-a257-4665578243580000, status: ERROR, comment: Транзакция 00b277c9-2b10-4943-a257-4665578243580000 не найдена
+[2024-02-27 17:48:09.397]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: d8391fd1-e037-4996-b4f8-0dff8aef86f8, status: SUCCESSFULED, comment: 
+[2024-02-27 17:48:09.408]: Transaction ID: d8391fd1-e037-4996-b4f8-0dff8aef86f80000, status: ERROR, comment: Транзакция d8391fd1-e037-4996-b4f8-0dff8aef86f80000 не найдена
+[2024-02-27 17:49:43.440]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 69e0851a-211b-41fe-ad77-d84f0ba51e00, status: SUCCESSFULED, comment: 
+[2024-02-27 17:49:43.489]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Необходимо указать разные карты для отправителя и получателя.
+[2024-02-27 17:49:43.515]: Debit card: 0000000000000000, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 17:49:43.540]: Debit card: 1111222233334444, credit card: 0000000000000000, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 17:49:43.567]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный период действия карты: 1111222233334444
+[2024-02-27 17:49:43.584]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный CVV код карты: 1111222233334444
+[2024-02-27 17:49:43.606]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 20000, commission: 200, transaction ID: , status: TRANSFER_ERROR, comment: Не достаточно средств на карте: 1111222233334444
+[2024-02-27 17:49:43.628]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 11838970-afce-43bf-8206-5d6a2ed28d6c, status: SUCCESSFULED, comment: 
+[2024-02-27 17:49:43.634]: Transaction ID: 11838970-afce-43bf-8206-5d6a2ed28d6c, status: SUCCESSFULED, comment: Транзакция 11838970-afce-43bf-8206-5d6a2ed28d6c подтверждена
+[2024-02-27 17:49:43.688]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 560adee3-4ad8-4908-8190-25daf6bb0e9e, status: SUCCESSFULED, comment: 
+[2024-02-27 17:49:43.700]: Transaction ID: 560adee3-4ad8-4908-8190-25daf6bb0e9e0000, status: ERROR, comment: Транзакция 560adee3-4ad8-4908-8190-25daf6bb0e9e0000 не найдена
+[2024-02-27 17:49:43.720]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 49414f47-b3ac-40a3-a95c-ed1d274ecf5d, status: SUCCESSFULED, comment: 
+[2024-02-27 17:49:43.732]: Transaction ID: 49414f47-b3ac-40a3-a95c-ed1d274ecf5d, status: ERROR, comment: Транзакция 49414f47-b3ac-40a3-a95c-ed1d274ecf5d подтверждена ранее
+[2024-02-27 17:49:43.761]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 9dd507a7-fc24-49dd-bcf9-073270ca0ab2, status: SUCCESSFULED, comment: 
+[2024-02-27 17:49:43.765]: Transaction ID: 9dd507a7-fc24-49dd-bcf9-073270ca0ab2, status: ERROR, comment: Транзакция 9dd507a7-fc24-49dd-bcf9-073270ca0ab2 отменена ранее
+[2024-02-27 17:51:51.237]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: f3136fa0-c03b-4fea-be19-f781ce84319d, status: SUCCESSFULED, comment: 
+[2024-02-27 17:51:51.249]: Transaction ID: f3136fa0-c03b-4fea-be19-f781ce84319d, status: ERROR, comment: Для транзакции f3136fa0-c03b-4fea-be19-f781ce84319d не верно указан код подтверждения
+[2024-02-27 17:54:47.167]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 2439d6ca-d2d3-4e87-87f6-4a5f0bc4af94, status: SUCCESSFULED, comment: 
+[2024-02-27 17:54:47.218]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Необходимо указать разные карты для отправителя и получателя.
+[2024-02-27 17:54:47.239]: Debit card: 0000000000000000, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 17:54:47.271]: Debit card: 1111222233334444, credit card: 0000000000000000, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 17:54:47.291]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный период действия карты: 1111222233334444
+[2024-02-27 17:54:47.331]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный CVV код карты: 1111222233334444
+[2024-02-27 17:54:47.367]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 20000, commission: 200, transaction ID: , status: TRANSFER_ERROR, comment: Не достаточно средств на карте: 1111222233334444
+[2024-02-27 17:54:47.414]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 6d1e075d-6e68-46a2-8866-71e5f10ccf35, status: SUCCESSFULED, comment: 
+[2024-02-27 17:54:47.420]: Transaction ID: 6d1e075d-6e68-46a2-8866-71e5f10ccf35, status: SUCCESSFULED, comment: Транзакция 6d1e075d-6e68-46a2-8866-71e5f10ccf35 подтверждена
+[2024-02-27 17:54:47.457]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 4e543da7-a0a6-424d-97a9-43e7c86042be, status: SUCCESSFULED, comment: 
+[2024-02-27 17:54:47.461]: Transaction ID: 4e543da7-a0a6-424d-97a9-43e7c86042be0000, status: ERROR, comment: Транзакция 4e543da7-a0a6-424d-97a9-43e7c86042be0000 не найдена
+[2024-02-27 17:54:47.478]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 141d2ab6-4031-4b09-8c50-c58af08ab505, status: SUCCESSFULED, comment: 
+[2024-02-27 17:54:47.482]: Transaction ID: 141d2ab6-4031-4b09-8c50-c58af08ab505, status: ERROR, comment: Транзакция 141d2ab6-4031-4b09-8c50-c58af08ab505 подтверждена ранее
+[2024-02-27 17:54:47.499]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: eb0a1be0-7133-4ff0-8619-5792a56dab8d, status: SUCCESSFULED, comment: 
+[2024-02-27 17:54:47.509]: Transaction ID: eb0a1be0-7133-4ff0-8619-5792a56dab8d, status: ERROR, comment: Транзакция eb0a1be0-7133-4ff0-8619-5792a56dab8d отменена ранее
+[2024-02-27 17:54:47.523]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: b986fc58-ae59-4112-90cd-e3b511b2d297, status: SUCCESSFULED, comment: 
+[2024-02-27 17:54:47.525]: Transaction ID: b986fc58-ae59-4112-90cd-e3b511b2d297, status: CANCELED, comment: Транзакция b986fc58-ae59-4112-90cd-e3b511b2d297 отменена
+[2024-02-27 17:54:47.556]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: b2bbcec9-8e41-4ff5-a4bd-ca9f7d74ebe0, status: SUCCESSFULED, comment: 
+[2024-02-27 17:54:47.558]: Transaction ID: b2bbcec9-8e41-4ff5-a4bd-ca9f7d74ebe0, status: ERROR, comment: Для транзакции b2bbcec9-8e41-4ff5-a4bd-ca9f7d74ebe0 не верно указан код подтверждения
+[2024-02-27 17:55:38.177]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 9d09c320-de8b-464d-a681-8a90d01c4e37, status: SUCCESSFULED, comment: 
+[2024-02-27 17:55:38.225]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Необходимо указать разные карты для отправителя и получателя.
+[2024-02-27 17:55:38.245]: Debit card: 0000000000000000, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 17:55:38.264]: Debit card: 1111222233334444, credit card: 0000000000000000, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 17:55:38.286]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный период действия карты: 1111222233334444
+[2024-02-27 17:55:38.300]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный CVV код карты: 1111222233334444
+[2024-02-27 17:55:38.316]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 20000, commission: 200, transaction ID: , status: TRANSFER_ERROR, comment: Не достаточно средств на карте: 1111222233334444
+[2024-02-27 17:55:38.336]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 95fceaef-8211-43b9-88eb-b8c78be83499, status: SUCCESSFULED, comment: 
+[2024-02-27 17:55:38.341]: Transaction ID: 95fceaef-8211-43b9-88eb-b8c78be83499, status: SUCCESSFULED, comment: Транзакция 95fceaef-8211-43b9-88eb-b8c78be83499 подтверждена
+[2024-02-27 17:55:38.359]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: deab83d7-48ae-45c2-8b91-4accc96b5cf9, status: SUCCESSFULED, comment: 
+[2024-02-27 17:55:38.363]: Transaction ID: deab83d7-48ae-45c2-8b91-4accc96b5cf90000, status: ERROR, comment: Транзакция deab83d7-48ae-45c2-8b91-4accc96b5cf90000 не найдена
+[2024-02-27 17:55:38.382]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 0a140963-f1dd-4f0d-aa8e-f02649b65ce7, status: SUCCESSFULED, comment: 
+[2024-02-27 17:55:38.389]: Transaction ID: 0a140963-f1dd-4f0d-aa8e-f02649b65ce7, status: ERROR, comment: Транзакция 0a140963-f1dd-4f0d-aa8e-f02649b65ce7 подтверждена ранее
+[2024-02-27 17:55:38.407]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 66f2f8eb-3177-478f-b555-72db774f1f0b, status: SUCCESSFULED, comment: 
+[2024-02-27 17:55:38.411]: Transaction ID: 66f2f8eb-3177-478f-b555-72db774f1f0b, status: ERROR, comment: Транзакция 66f2f8eb-3177-478f-b555-72db774f1f0b отменена ранее
+[2024-02-27 17:55:38.434]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 5d0de190-64ba-4526-85ef-4f0adb2c83c0, status: SUCCESSFULED, comment: 
+[2024-02-27 17:55:38.444]: Transaction ID: 5d0de190-64ba-4526-85ef-4f0adb2c83c0, status: CANCELED, comment: Транзакция 5d0de190-64ba-4526-85ef-4f0adb2c83c0 отменена
+[2024-02-27 17:55:38.480]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 7237e56b-ee77-4e34-8746-2662f4d0fa55, status: SUCCESSFULED, comment: 
+[2024-02-27 17:55:38.486]: Transaction ID: 7237e56b-ee77-4e34-8746-2662f4d0fa55, status: ERROR, comment: Для транзакции 7237e56b-ee77-4e34-8746-2662f4d0fa55 не верно указан код подтверждения
+[2024-02-27 17:59:03.404]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: e946c233-fd03-4a29-8a62-ba355daa6aa8, status: SUCCESSFULED, comment: 
+[2024-02-27 17:59:03.459]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Необходимо указать разные карты для отправителя и получателя.
+[2024-02-27 17:59:03.479]: Debit card: 0000000000000000, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 17:59:03.496]: Debit card: 1111222233334444, credit card: 0000000000000000, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 17:59:03.514]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный период действия карты: 1111222233334444
+[2024-02-27 17:59:03.530]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный CVV код карты: 1111222233334444
+[2024-02-27 17:59:03.548]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 20000, commission: 200, transaction ID: , status: TRANSFER_ERROR, comment: Не достаточно средств на карте: 1111222233334444
+[2024-02-27 17:59:03.578]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: a4ab6210-e16f-4d6f-81c7-1c648bff6b01, status: SUCCESSFULED, comment: 
+[2024-02-27 17:59:03.581]: Transaction ID: a4ab6210-e16f-4d6f-81c7-1c648bff6b01, status: SUCCESSFULED, comment: Транзакция a4ab6210-e16f-4d6f-81c7-1c648bff6b01 подтверждена
+[2024-02-27 17:59:03.639]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: f34a2ce1-ebdf-4fbf-83ac-98630d44a59f, status: SUCCESSFULED, comment: 
+[2024-02-27 17:59:03.648]: Transaction ID: f34a2ce1-ebdf-4fbf-83ac-98630d44a59f, status: CANCELED, comment: Транзакция f34a2ce1-ebdf-4fbf-83ac-98630d44a59f отменена
+[2024-02-27 17:59:03.680]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: bf0f5336-d5a4-4d2e-874c-d246a8b936ce, status: SUCCESSFULED, comment: 
+[2024-02-27 17:59:03.686]: Transaction ID: bf0f5336-d5a4-4d2e-874c-d246a8b936ce0000, status: ERROR, comment: Транзакция bf0f5336-d5a4-4d2e-874c-d246a8b936ce0000 не найдена
+[2024-02-27 17:59:03.713]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 976717b1-47a7-44fc-ab46-5b22d75a3088, status: SUCCESSFULED, comment: 
+[2024-02-27 17:59:03.716]: Transaction ID: 976717b1-47a7-44fc-ab46-5b22d75a3088, status: ERROR, comment: Транзакция 976717b1-47a7-44fc-ab46-5b22d75a3088 подтверждена ранее
+[2024-02-27 17:59:03.737]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 15fa5a9b-6286-428d-bd67-74e1ff581e09, status: SUCCESSFULED, comment: 
+[2024-02-27 17:59:03.739]: Transaction ID: 15fa5a9b-6286-428d-bd67-74e1ff581e09, status: ERROR, comment: Транзакция 15fa5a9b-6286-428d-bd67-74e1ff581e09 отменена ранее
+[2024-02-27 17:59:03.752]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: c688cd77-beaf-45d4-b4bb-d0f494ff5ddf, status: SUCCESSFULED, comment: 
+[2024-02-27 17:59:03.754]: Transaction ID: c688cd77-beaf-45d4-b4bb-d0f494ff5ddf, status: ERROR, comment: Для транзакции c688cd77-beaf-45d4-b4bb-d0f494ff5ddf не верно указан код подтверждения
+[2024-02-27 18:53:49.007]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 1000158f-19a3-4e16-ac32-a3326e94e62e, status: SUCCESSFULED, comment: 
+[2024-02-27 18:53:49.035]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Необходимо указать разные карты для отправителя и получателя.
+[2024-02-27 18:53:49.057]: Debit card: 0000000000000000, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 18:53:49.068]: Debit card: 1111222233334444, credit card: 0000000000000000, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 18:53:49.087]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный период действия карты: 1111222233334444
+[2024-02-27 18:53:49.098]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный CVV код карты: 1111222233334444
+[2024-02-27 18:53:49.113]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 20000, commission: 200, transaction ID: , status: TRANSFER_ERROR, comment: Не достаточно средств на карте: 1111222233334444
+[2024-02-27 18:53:49.163]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 1878200d-7f89-422d-85b4-30ce9ea3618c, status: SUCCESSFULED, comment: 
+[2024-02-27 18:53:49.166]: Transaction ID: 1878200d-7f89-422d-85b4-30ce9ea3618c, status: SUCCESSFULED, comment: Транзакция 1878200d-7f89-422d-85b4-30ce9ea3618c подтверждена
+[2024-02-27 18:53:49.199]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: b01f161c-b368-4fdd-b3f7-1857824d6162, status: SUCCESSFULED, comment: 
+[2024-02-27 18:53:49.206]: Transaction ID: b01f161c-b368-4fdd-b3f7-1857824d6162, status: CANCELED, comment: Транзакция b01f161c-b368-4fdd-b3f7-1857824d6162 отменена
+[2024-02-27 18:53:49.224]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: d7e66b5a-9719-4689-ba50-940bc2f4e089, status: SUCCESSFULED, comment: 
+[2024-02-27 18:53:49.228]: Transaction ID: d7e66b5a-9719-4689-ba50-940bc2f4e0890000, status: ERROR, comment: Транзакция d7e66b5a-9719-4689-ba50-940bc2f4e0890000 не найдена
+[2024-02-27 18:53:49.246]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 81b2373c-61c4-46ce-971b-5b19bdb1076f, status: SUCCESSFULED, comment: 
+[2024-02-27 18:53:49.249]: Transaction ID: 81b2373c-61c4-46ce-971b-5b19bdb1076f, status: ERROR, comment: Транзакция 81b2373c-61c4-46ce-971b-5b19bdb1076f подтверждена ранее
+[2024-02-27 18:53:49.262]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: d038b462-6066-403e-ab84-38b4081eca40, status: SUCCESSFULED, comment: 
+[2024-02-27 18:53:49.265]: Transaction ID: d038b462-6066-403e-ab84-38b4081eca40, status: ERROR, comment: Транзакция d038b462-6066-403e-ab84-38b4081eca40 отменена ранее
+[2024-02-27 18:53:49.278]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 98aa7704-4a3f-462d-9d76-1cdbcc4afedb, status: SUCCESSFULED, comment: 
+[2024-02-27 18:53:49.281]: Transaction ID: 98aa7704-4a3f-462d-9d76-1cdbcc4afedb, status: ERROR, comment: Для транзакции 98aa7704-4a3f-462d-9d76-1cdbcc4afedb не верно указан код подтверждения
+[2024-02-27 20:11:49.174]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 07f6203e-51b1-4a99-a256-b05381586fa9, status: SUCCESSFULED, comment: 
+[2024-02-27 20:11:49.221]: Debit card: 1111222233334444, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Необходимо указать разные карты для отправителя и получателя.
+[2024-02-27 20:11:49.243]: Debit card: 0000000000000000, credit card: 1111222233334444, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 20:11:49.266]: Debit card: 1111222233334444, credit card: 0000000000000000, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не корректный номер карты: 0000000000000000
+[2024-02-27 20:11:49.286]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный период действия карты: 1111222233334444
+[2024-02-27 20:11:49.308]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: , status: INPUTDATA_ERROR, comment: Не верный CVV код карты: 1111222233334444
+[2024-02-27 20:11:49.324]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 20000, commission: 200, transaction ID: , status: TRANSFER_ERROR, comment: Не достаточно средств на карте: 1111222233334444
+[2024-02-27 20:11:49.338]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: d01f0ea0-af33-4e5e-adf0-109116235ab5, status: SUCCESSFULED, comment: 
+[2024-02-27 20:11:49.341]: Transaction ID: d01f0ea0-af33-4e5e-adf0-109116235ab5, status: SUCCESSFULED, comment: Транзакция d01f0ea0-af33-4e5e-adf0-109116235ab5 подтверждена
+[2024-02-27 20:11:49.361]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 5da479bc-d538-49bb-bfe7-fcef5fd1b844, status: SUCCESSFULED, comment: 
+[2024-02-27 20:11:49.364]: Transaction ID: 5da479bc-d538-49bb-bfe7-fcef5fd1b844, status: CANCELED, comment: Транзакция 5da479bc-d538-49bb-bfe7-fcef5fd1b844 отменена
+[2024-02-27 20:11:49.382]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 58fbb07f-359a-436d-a642-2164d0645e20, status: SUCCESSFULED, comment: 
+[2024-02-27 20:11:49.386]: Transaction ID: 58fbb07f-359a-436d-a642-2164d0645e200000, status: ERROR, comment: Транзакция 58fbb07f-359a-436d-a642-2164d0645e200000 не найдена
+[2024-02-27 20:11:49.400]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 4179cc35-800d-454a-9919-16571958eb21, status: SUCCESSFULED, comment: 
+[2024-02-27 20:11:49.404]: Transaction ID: 4179cc35-800d-454a-9919-16571958eb21, status: ERROR, comment: Транзакция 4179cc35-800d-454a-9919-16571958eb21 подтверждена ранее
+[2024-02-27 20:11:49.418]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: 91a52f78-1ac6-4184-984f-aaf405ae99f0, status: SUCCESSFULED, comment: 
+[2024-02-27 20:11:49.421]: Transaction ID: 91a52f78-1ac6-4184-984f-aaf405ae99f0, status: ERROR, comment: Транзакция 91a52f78-1ac6-4184-984f-aaf405ae99f0 отменена ранее
+[2024-02-27 20:11:49.436]: Debit card: 1111222233334444, credit card: 2222333344445555, amount: 5000, commission: 50, transaction ID: ef826b9d-e35d-45c7-b7c9-75433e34c3f6, status: SUCCESSFULED, comment: 
+[2024-02-27 20:11:49.439]: Transaction ID: ef826b9d-e35d-45c7-b7c9-75433e34c3f6, status: ERROR, comment: Для транзакции ef826b9d-e35d-45c7-b7c9-75433e34c3f6 не верно указан код подтверждения

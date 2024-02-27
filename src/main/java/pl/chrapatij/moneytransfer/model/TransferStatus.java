@@ -3,6 +3,5 @@ package pl.chrapatij.moneytransfer.model;
 public enum TransferStatus {
     SUCCESSFULED,
     INPUTDATA_ERROR,
-    TRANSFER_ERROR,
-    CONFIRM_ERROR
+    TRANSFER_ERROR
 }
